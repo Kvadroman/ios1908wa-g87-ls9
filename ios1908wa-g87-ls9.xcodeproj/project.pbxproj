@@ -13,6 +13,8 @@
 		00C95CB826FDF3270018C3DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C95CB626FDF3270018C3DA /* Main.storyboard */; };
 		00C95CBA26FDF3290018C3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C95CB926FDF3290018C3DA /* Assets.xcassets */; };
 		00C95CBD26FDF3290018C3DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C95CBB26FDF3290018C3DA /* LaunchScreen.storyboard */; };
+		00C95CC826FFC3830018C3DA /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C95CC626FFC3830018C3DA /* GroupTableViewCell.swift */; };
+		00C95CC926FFC3830018C3DA /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C95CC726FFC3830018C3DA /* GroupTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		00C95CB926FDF3290018C3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C95CBC26FDF3290018C3DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00C95CBE26FDF3290018C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C95CC626FFC3830018C3DA /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		00C95CC726FFC3830018C3DA /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				00C95CB026FDF3270018C3DA /* AppDelegate.swift */,
 				00C95CB226FDF3270018C3DA /* SceneDelegate.swift */,
 				00C95CB426FDF3270018C3DA /* ViewController.swift */,
-				00C95CB626FDF3270018C3DA /* Main.storyboard */,
+				00C95CC626FFC3830018C3DA /* GroupTableViewCell.swift */,
 				00C95CB926FDF3290018C3DA /* Assets.xcassets */,
-				00C95CBB26FDF3290018C3DA /* LaunchScreen.storyboard */,
 				00C95CBE26FDF3290018C3DA /* Info.plist */,
+				00C95CB626FDF3270018C3DA /* Main.storyboard */,
+				00C95CBB26FDF3290018C3DA /* LaunchScreen.storyboard */,
+				00C95CC726FFC3830018C3DA /* GroupTableViewCell.xib */,
 			);
 			path = "ios1908wa-g87-ls9";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				00C95CBD26FDF3290018C3DA /* LaunchScreen.storyboard in Resources */,
 				00C95CBA26FDF3290018C3DA /* Assets.xcassets in Resources */,
 				00C95CB826FDF3270018C3DA /* Main.storyboard in Resources */,
+				00C95CC926FFC3830018C3DA /* GroupTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				00C95CB526FDF3270018C3DA /* ViewController.swift in Sources */,
 				00C95CB126FDF3270018C3DA /* AppDelegate.swift in Sources */,
 				00C95CB326FDF3270018C3DA /* SceneDelegate.swift in Sources */,
+				00C95CC826FFC3830018C3DA /* GroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
